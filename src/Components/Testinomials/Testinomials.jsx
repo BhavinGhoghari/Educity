@@ -15,14 +15,12 @@ const Testinomials = () => {
 const slideForward = () => {
     if (tx > -50) {
       tx -= 25;
-      // console.log("next");
     }
     slider.current.style.transform = `translate(${tx}%)`;
 };
 const slideBackward = () => {
     if (tx < 0) {
       tx += 25;
-      console.log("perv");
     }
     slider.current.style.transform = `translate(${tx}%)`;
 };
