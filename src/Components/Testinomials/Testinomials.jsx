@@ -8,22 +8,24 @@ import user3 from "../Photos/user-3.png";
 import user4 from "../Photos/user-4.png";
 
 const Testinomials = () => {
+
   const slider = useRef();
   let tx = 0;
-  const slideForward = () => {
+
+const slideForward = () => {
     if (tx > -50) {
       tx -= 25;
-      console.log("next");
+      // console.log("next");
     }
     slider.current.style.transform = `translate(${tx}%)`;
-  };
-  const slideBackward = () => {
-    if (tx < -50) {
+};
+const slideBackward = () => {
+    if (tx < 0) {
       tx += 25;
       console.log("perv");
     }
     slider.current.style.transform = `translate(${tx}%)`;
-  };
+};
   return (
     <>
       <div className="testinomials">
