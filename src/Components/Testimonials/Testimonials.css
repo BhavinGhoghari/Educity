@@ -1,4 +1,4 @@
-.testinomials {
+.testimonials {
   margin: 80px auto;
   padding: 0 80px;
   position: relative;
@@ -58,16 +58,16 @@
   color: #212ea0;
 }
 
-/* media quary */
+/* media query */
 @media (max-width: 800px) {
-  .testinomials {
+  .testimonials {
     padding: 0 40px;
   }
   .next-btn .back-btn {
     padding: 10px;
     width: 35px;
   }
-  .testinomials ul li {
+  .testimonials ul li {
     padding: 10px;
   }
   .slide {

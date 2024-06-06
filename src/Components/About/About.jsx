@@ -20,7 +20,7 @@ const About = ({ setPlayState }) => {
         </div>
         <div className="about-right">
           <h3>ABOUT UNIVERSITY</h3>
-          <h2>Nuturing Tomorrow's Leaders Today</h2>
+          <h2>Nurturing Tomorrow's Leaders Today</h2>
           <p>
             Embark on a transformative educational journey with our university's
             comprehensive education programs.Our cutting-edge curriculum is
@@ -28,9 +28,9 @@ const About = ({ setPlayState }) => {
             experience needed to excel in the dynamic field of education.
           </p>
           <p>
-            With a focus on innovation,hands-on learing,and personalized
+            With a focus on innovation,hands-on learning,and personalized
             mentorship,our program prepare aspiring educators to make a
-            meaningful impact in classrooms,schools,and commuinites.
+            meaningful impact in classrooms,schools,and communities.
           </p>
           <p>
             Whether you aspire to become a teacher,administrator,counselor,or

@@ -8,7 +8,6 @@ import locationIcon from "../Photos/location-icon.png";
 import whiteArrow from "../Photos/white-arrow.png";
 
 const Contact = () => {
-  // const [result, setResult] = React.useState("");
   const [result, setResult] = useState("");
 
   const onSubmit = async (event) => {
@@ -39,25 +38,25 @@ const Contact = () => {
         <div className="contact-col">
           <h3>
             Send us a Message
-            <img src={msgIcon} />
+            <img src={msgIcon} alt=""/>
           </h3>
           <p>
             Feel Free to react out through contact from or find our contact
             information below.Your feedback ,questions,and suggestions are
-            important to us as we strive to provide exceptional serive to our
+            important to us as we strive to provide exceptional service to our
             university community.
           </p>
           <ul>
             <li>
-              <img src={mailIcon} />
+              <img src={mailIcon} alt=""/>
               Contact@abc.dev
             </li>
             <li>
-              <img src={phoneIcon} />
+              <img src={phoneIcon} alt=""/>
               +91 1234567980
             </li>
             <li>
-              <img src={locationIcon} />
+              <img src={locationIcon} alt=""/>
               Katargam,Surat <br />
               395004, Gujarat
             </li>
@@ -76,7 +75,7 @@ const Contact = () => {
             <input
               type="tel"
               name="phone"
-              placeholder="Enter Yout Mobile Number"
+              placeholder="Enter Your Mobile Number"
               required
             />
             <label>Write Your Message Here</label>
@@ -88,7 +87,7 @@ const Contact = () => {
             />
             <button type="submit" className="btn dark-btn">
               Submit Now
-              <img src={whiteArrow} />
+              <img src={whiteArrow} alt=""/>
             </button>
           </form>
           <span>{result}</span>

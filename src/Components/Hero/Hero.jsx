@@ -7,14 +7,15 @@ const Hero = () => {
     <>
       <div className="hero container">
         <div className="hero-text">
-          <h1>We Ensure better education for better world</h1>
+          <h1>We Ensure Better Education for better world</h1>
           <p>
-            Our cutting-edge curriculam is desinged to empower students with the
-            knowlegde,skills,and experiences needed to excel in the dynamic
+            Our cutting-edge curriculum is designed to empower students with the
+            knowledge,skills,and experiences needed to excel in the dynamic
             field of education
           </p>
-          <button className="btn">
-            Explore More<img src={dark_arrow}></img>
+          <button className="btn" >
+            Explore More 
+            <img src={dark_arrow} alt=""></img>
           </button>
         </div>
       </div>

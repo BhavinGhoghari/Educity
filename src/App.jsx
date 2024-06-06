@@ -8,7 +8,7 @@ import Footer from "./Components/Footer/Footer";
 import Hero from "./Components/Hero/Hero";
 import Navbar from "./Components/Navbar/Navbar";
 import Program from "./Components/Program/Program";
-import Testinomials from "./Components/Testinomials/Testinomials";
+import Testimonials from "./Components/Testimonials/Testimonials";
 import Title from "./Components/Title/Title";
 import Videoplay from "./Components/VideoPlayer/Videoplay";
 
@@ -23,11 +23,11 @@ function App() {
           <Title subtitle="Our Program" title="What We Offer" />
           <Program />
           <About setPlayState={setPlayState} />
-          <Title subtitle="Gallary" title="Campus Photos" />
+          <Title subtitle="Gallery" title="Campus Photos" />
           <Campus />
-          <Title subtitle="Testinomial" title="What Student Says" />
-          <Testinomials />
-          <Title subtitle="Contact Us" title="Get in Tourch" />
+          <Title subtitle="Testimonial" title="What Student Says" />
+          <Testimonials />
+          <Title subtitle="Contact Us" title="Get in Torch" />
           <Contact />
           <Footer />
         </div>
