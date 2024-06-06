@@ -1,0 +1,7 @@
+{
+  "workbench.colorTheme": "Visual Studio Light",
+  "workbench.activityBar.visible": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "window.zoomLevel": 0,
+  "html.suggest.html5": true
+}
